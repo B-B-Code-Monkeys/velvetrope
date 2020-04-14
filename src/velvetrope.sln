@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VelvetRope.ITOps", "VelvetRope.ITOps", "{1DD2EE3F-82E8-4C05-91AD-5BBE6076467C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VelvetRope.Business", "VelvetRope.Business", "{44F0F4B4-8D96-4760-BEB0-3E12685FEAAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelvetRope.Client.Web", "VelvetRope.Client.Web\VelvetRope.Client.Web.csproj", "{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,8 +18,25 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|x64.Build.0 = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Debug|x86.Build.0 = Debug|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|x64.ActiveCfg = Release|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|x64.Build.0 = Release|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|x86.ActiveCfg = Release|Any CPU
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEFFF364-D20E-4AA6-8227-3CB2260EFA50} = {1DD2EE3F-82E8-4C05-91AD-5BBE6076467C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA42ACF4-1A5F-455F-8565-84D4EC589920}
