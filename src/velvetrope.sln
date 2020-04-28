@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reporting", "Reporting", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VelvetRope.Components", "VelvetRope.Components", "{673188DD-807B-43DC-AA39-97F9259202DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelvetRope.Common", "VelvetRope.Common\VelvetRope.Common.csproj", "{A7035015-1D0D-45D0-8D61-577DAF609073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VelvetRope.Common", "VelvetRope.Common\VelvetRope.Common.csproj", "{A7035015-1D0D-45D0-8D61-577DAF609073}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{4C7A5589-AF92-48F8-B9A0-F5BE9554A0FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelvetRope.Events", "VelvetRope.Events\VelvetRope.Events.csproj", "{272433F2-358D-4518-8EEE-25EC5421DD5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VelvetRope.Events", "VelvetRope.Events\VelvetRope.Events.csproj", "{272433F2-358D-4518-8EEE-25EC5421DD5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

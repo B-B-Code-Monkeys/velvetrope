@@ -1,7 +1,29 @@
 ﻿@page "/"
+@using VelvetRope.Client.Web.Pages.Components
+@inject VelvetRope.Client.Web.Data.EventService EventService
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@if (events == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    foreach (var e in events)
+    {
+        <EventCard Event="e" />
+    }
+}
+
+@code {      
+
+    private VelvetRope.Client.Web.Data.Event[] events;
+
+    protected override async Task OnInitializedAsync()
+    {
+        events = await EventService.GetNewEvents();
+    }
+}
